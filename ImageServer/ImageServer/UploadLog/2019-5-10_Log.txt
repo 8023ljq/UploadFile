@@ -1,0 +1,20 @@
+当前时间：2019/5/10 18:12:30
+异常信息：值不能为 null。
+参数名: encoder
+异常对象：System.Drawing
+调用堆栈：
+在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 ImageServer.Controllers.AddWaterMark.SaveImage2File(String path, Image destImage, Int32 quality, String mimeType) 位置 E:\Demo\接口\ImageServer\ImageServer\Controllers\AddWaterMark.cs:行号 226
+   在 ImageServer.Controllers.AddWaterMark.DrawWaterImage(String destPath, String srcPath, String waterPath, String& error, String mimeType) 位置 E:\Demo\接口\ImageServer\ImageServer\Controllers\AddWaterMark.cs:行号 181
+触发方法：Void Save(System.String, System.Drawing.Imaging.ImageCodecInfo, System.Drawing.Imaging.EncoderParameters)
+
+当前时间：2019/5/10 18:15:43
+异常信息：值不能为 null。
+参数名: encoder
+异常对象：System.Drawing
+调用堆栈：
+在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 ImageServer.Controllers.AddWaterMark.SaveImage2File(String path, Image destImage, Int32 quality, String mimeType) 位置 E:\Demo\接口\ImageServer\ImageServer\Controllers\AddWaterMark.cs:行号 226
+   在 ImageServer.Controllers.AddWaterMark.DrawWaterImage(String destPath, String srcPath, String waterPath, String& error, String mimeType) 位置 E:\Demo\接口\ImageServer\ImageServer\Controllers\AddWaterMark.cs:行号 181
+触发方法：Void Save(System.String, System.Drawing.Imaging.ImageCodecInfo, System.Drawing.Imaging.EncoderParameters)
+
