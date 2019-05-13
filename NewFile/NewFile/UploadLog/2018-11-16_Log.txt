@@ -1,0 +1,112 @@
+当前时间：2018/11/16 15:13:41
+异常信息：文件名、目录名或卷标语法不正确。 : 'E:\接口\NewFile\NewFile\http:\localhost:8001\Files\'
+异常对象：System.IO.FileSystem
+调用堆栈：
+at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 53
+触发方法：Void CreateDirectory(System.String)
+
+当前时间：2018/11/16 15:14:16
+异常信息：文件名、目录名或卷标语法不正确。 : 'E:\接口\NewFile\NewFile\http:\localhost:8001\Files\'
+异常对象：System.IO.FileSystem
+调用堆栈：
+at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 53
+触发方法：Void CreateDirectory(System.String)
+
+当前时间：2018/11/16 15:18:04
+异常信息：文件名、目录名或卷标语法不正确。 : 'E:\接口\NewFile\NewFile\http:\localhost:8001\Files\'
+异常对象：System.IO.FileSystem
+调用堆栈：
+at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 53
+触发方法：Void CreateDirectory(System.String)
+
+当前时间：2018/11/16 15:22:13
+异常信息：文件名、目录名或卷标语法不正确。 : 'E:\接口\NewFile\NewFile\http:\localhost:8001\Files\'
+异常对象：System.IO.FileSystem
+调用堆栈：
+at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 53
+触发方法：Void CreateDirectory(System.String)
+
+当前时间：2018/11/16 16:28:18
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile()
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/16 16:29:43
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile()
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/16 16:29:55
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile()
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/16 16:42:14
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile()
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/16 16:43:28
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 59
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/16 16:50:04
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 59
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/16 17:13:05
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 59
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/16 17:15:13
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 59
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/16 17:31:17
+异常信息：The operation was canceled.
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 58
+触发方法：Void MoveNext()
+

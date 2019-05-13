@@ -1,0 +1,113 @@
+当前时间：2018/11/17 9:09:38
+异常信息：Incorrect Content-Type: 
+异常对象：Microsoft.AspNetCore.Http
+调用堆栈：
+at Microsoft.AspNetCore.Http.Features.FormFeature.ReadForm()
+   at Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest.get_Form()
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 28
+触发方法：Microsoft.AspNetCore.Http.IFormCollection ReadForm()
+
+当前时间：2018/11/17 9:10:54
+异常信息：Unexpected character encountered while parsing number: j. Path '', line 1, position 23.
+异常对象：Newtonsoft.Json
+调用堆栈：
+at Newtonsoft.Json.JsonTextReader.ReadNumberCharIntoBuffer(Char currentChar, Int32 charPos)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 64
+触发方法：Boolean ReadNumberCharIntoBuffer(Char, Int32)
+
+当前时间：2018/11/17 9:11:24
+异常信息：Unexpected character encountered while parsing number: j. Path '', line 1, position 23.
+异常对象：Newtonsoft.Json
+调用堆栈：
+at Newtonsoft.Json.JsonTextReader.ReadNumberCharIntoBuffer(Char currentChar, Int32 charPos)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 64
+触发方法：Boolean ReadNumberCharIntoBuffer(Char, Int32)
+
+当前时间：2018/11/17 9:12:08
+异常信息：Response status code does not indicate success: 404 (Not Found).
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 60
+触发方法：System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+当前时间：2018/11/17 9:13:55
+异常信息：Unexpected character encountered while parsing number: j. Path '', line 1, position 23.
+异常对象：Newtonsoft.Json
+调用堆栈：
+at Newtonsoft.Json.JsonTextReader.ReadNumberCharIntoBuffer(Char currentChar, Int32 charPos)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 64
+触发方法：Boolean ReadNumberCharIntoBuffer(Char, Int32)
+
+当前时间：2018/11/17 9:33:01
+异常信息：The operation was canceled.
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 59
+触发方法：Void MoveNext()
+
+当前时间：2018/11/17 9:42:28
+异常信息：An error occurred while sending the request.
+异常对象：System.Net.Http
+调用堆栈：
+at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 59
+触发方法：Void MoveNext()
+
+当前时间：2018/11/17 9:46:11
+异常信息：Unexpected character encountered while parsing number: j. Path '', line 1, position 23.
+异常对象：Newtonsoft.Json
+调用堆栈：
+at Newtonsoft.Json.JsonTextReader.ReadNumberCharIntoBuffer(Char currentChar, Int32 charPos)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at NewFile.Controllers.UploadFileController.UploadFile() in E:\接口\NewFile\NewFile\Controllers\UploadFileController.cs:line 62
+触发方法：Boolean ReadNumberCharIntoBuffer(Char, Int32)
+
